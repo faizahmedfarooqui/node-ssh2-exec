@@ -2,7 +2,6 @@ var encodedKey, decodedKey, encodedCommand, decodedCommand, parsedCommand, shell
 
 var Base64 = require('./base64.js');
 var SSH2Shell = require ('ssh2shell');
-var fs = require('fs');
 
 var argv = require('optimist')
     .usage('\nDeployment Engine Node Plugin for SSH2.\n\nUsage: /usr/local/bin/node shell.js --options...')

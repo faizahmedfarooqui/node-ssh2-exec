@@ -1,0 +1,29 @@
+{
+  "name": "node-ssh2-exec",
+  "version": "1.0.0",
+  "description": "A Node Plugin for SSH2 Login & Exec",
+  "main": "shell.js",
+  "scripts": {
+    "test": "node shell.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faizahmedfarooqui/node-ssh2-exec.git"
+  },
+  "keywords": [
+    "Node",
+    "SSH2",
+    "Deployment",
+    "AutoPull"
+  ],
+  "author": "Faiz A. Farooqui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faizahmedfarooqui/node-ssh2-exec/issues"
+  },
+  "homepage": "https://github.com/faizahmedfarooqui/node-ssh2-exec#readme",
+  "dependencies": {
+    "optimist": "^0.6.1",
+    "ssh2shell": "^1.9.0"
+  }
+}
